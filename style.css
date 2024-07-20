@@ -31,7 +31,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 70vh;
+    min-height: 90vh;
 }
 
 .menu {
@@ -58,15 +58,6 @@ body {
     padding: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     float: left;
-}
-
-body header .header .menu.container .navbar ul li {
-    background-color: transparent;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    padding: 10px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .menu .navbar ul li a {
@@ -100,7 +91,7 @@ body header .header .menu.container .navbar ul li {
 }
 
 .header-content h1 {
-    font-size: 75px;
+    font-size: 40px;
     line-height: 80px;
     color: #f9fafc;
     text-transform: uppercase;
@@ -112,8 +103,8 @@ body header .header .menu.container .navbar ul li {
     font-size: 16px;
     color: #C5C5C5;
     padding: 0 250px;
-    margin-bottom: 60px;
-    margin-top: 80px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .btn-1 {
@@ -237,6 +228,55 @@ body header .header .menu.container .navbar ul li {
     width: 50%;
     padding: 100px 250px 100px 100px;
     background-color: #E1E2E6;
+}
+
+.form-register {
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.form-register .controls {
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .buttoms {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
 }
 
 .general-2 {
