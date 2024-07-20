@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+
 }
 
 body {
@@ -11,6 +15,22 @@ body {
     background-image: url('https://www.butlerbranding.com/wp-content/uploads/2020/04/Digital-Marketing-Background.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(https://banner2.cleanpng.com/20190424/qf/kisspng-digital-marketing-digital-media-content-marketing-5cc1079dcad076.6475477215561542698307.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
 }
 
 li {
@@ -24,7 +44,7 @@ a {
 }
 
 a:hover {
-    color: orange;
+    color: rgb(243, 138, 138);
 }
 
 header {
@@ -40,6 +60,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: transparent;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .navbar .logo a {
@@ -59,8 +85,28 @@ header {
     display: none;
 }
 
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    margin-top: 55px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
 .action_btn {
-    background-color: orange;
+    background-color: #cE967B;
     color: #fff;
     padding: 0.5rem 1rem;
     border: none;
@@ -111,6 +157,70 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #cE967B;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #ebad8d;
+}
+
+.marketing {
+    padding: 100px 0;
+    background-color: #E1E2E6;
+    position: relative;
+}
+
+.marketing-content {
+    text-align: center;
+}
+
+.marketing-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.marketing-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.marketing-1 {
+    padding: 0 25px;
+}
+
+.marketing-1 img {
+    width: 200px;
+}
+
+.marketing-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.marketing-1 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
 /* Responsive Design */
